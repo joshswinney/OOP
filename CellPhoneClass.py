@@ -23,3 +23,8 @@ class CellPhone:
 
     def get_retail_price(self, price):
         return "Retail price: " + self.__set_retail_price
+
+    def __str__(self):
+        return self.__retail_price
+
+    
